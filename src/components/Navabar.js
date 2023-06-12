@@ -33,8 +33,8 @@ export class Navabar extends Component {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/buisness">
-                    Buisness
+                  <Link className="nav-link" to="/business">
+                  business
                   </Link>
                 </li>
                 <li className="nav-item">
