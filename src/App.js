@@ -6,7 +6,7 @@ import Navabar from './components/Navabar';
 import News from './components/News';
 
 export default class App extends Component {
-  pageSize = 15;
+  pageSize = 9;
   render() {
     return (
            <BrowserRouter>
