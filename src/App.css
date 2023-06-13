@@ -32,8 +32,8 @@ a{
   font-family: cursive;
 }
 .hoverCard{
-  /* position: relative; */
-  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.484);
+  /* position:sticky; */
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.764);
   transition: 1s all ;
 }
 .hoverCard img{
