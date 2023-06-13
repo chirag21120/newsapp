@@ -18,6 +18,10 @@ body{
   background-color: rgba(201, 200, 200, 0.329);
 }
 
+nav{
+  position: absolute;
+}
+
 a{
   text-decoration: none;
   color: black;
@@ -55,7 +59,7 @@ a{
   display: inline;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .hoverCard{
   margin: 5px 20px;
   }
@@ -63,5 +67,12 @@ a{
       max-width: 100%;
           height: auto;
       }
-      
+  .hoverCard:hover{
+        /* z-index: 9999;  */
+        /* transition-delay: 1s; */
+        /* transform: scale(1.02); */
+        max-width: 415px;
+        box-shadow: 7.35px 6.3px 29.4px 10.5px rgba(0, 0, 0, 0.527);
+        cursor: pointer;
+      } 
   }

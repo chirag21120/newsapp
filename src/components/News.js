@@ -42,7 +42,6 @@ export class News extends Component {
       totalResults: parsedData.totalResults,
     });
     this.props.setProgress(100);
-    console.log(parsedData);
   }
 
   async componentDidMount() {

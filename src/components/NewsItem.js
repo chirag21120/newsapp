@@ -15,10 +15,12 @@ export class NewsItem extends Component {
             return parseInt(diff/(60*60))+'hours'
         }
         if(diff>=8400 && diff<604800){
-            return parseInt(diff/(60*60*24))+' day'
+            let x = parseInt(diff/(60*60*24));
+            return x>1?x+'days':x+'day';
         }
         if(diff>=604800){
-            return parseInt(diff/(60*60*24*7))+'week'
+            let x = parseInt(diff/(60*60*24*7));
+            return x>1?x+' week':x+' weeks'
         }
         return diff;
     }
